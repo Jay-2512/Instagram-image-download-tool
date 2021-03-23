@@ -144,6 +144,9 @@ class cnct:
 
             print("DOWNLOAD COMPLETE CHECK THE DIR : " + path)
 
+        else:
+            print('Oh! More Browsers will be added soon! :)')
+
     def fb_login(uname, passw, browser, keyword):
         if browser == '1':
             path = os.getcwd()
@@ -261,3 +264,6 @@ class cnct:
                 counter += 1
 
             print("DOWNLOAD COMPLETE CHECK THE DIR : " + path)
+
+        else:
+            print('Oh! More Browsers will be added soon! :)')
